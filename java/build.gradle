@@ -1,0 +1,15 @@
+plugins {
+	id 'java'
+	}
+ 
+repositories {
+ 	jcenter()
+ 	}
+ 	
+dependencies {
+	//MariaDB JDBC Driver
+	implementation 'org.mariadb.jdbc:mariadb-java-client:2.+'
+	
+	//Lambok library
+	implementation 'org.projectlombok:lombok:1.+'
+	}
