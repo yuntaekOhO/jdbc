@@ -33,7 +33,7 @@ public class JdbcUpdateEx {
 		JdbcUpdateEx ex = new JdbcUpdateEx();
 		
 		//학생 한명 수정
-		Student student = new Student("5", "안철수", "국민의당");
+		Student student = new Student("2", "홍준표", "심리학과");
 		int updatedRows = ex.updateStudent(student);
 		if(updatedRows > 0)
 			System.out.println("학생을 수정했습니다. " + student);
